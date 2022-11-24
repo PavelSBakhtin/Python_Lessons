@@ -7,3 +7,8 @@ dc = {}
 for i in range(n):
     dc[i + 1] = 3 * (i + 1) + 1
 print(dc)
+
+# d = {'key': 'value'}
+# print(d)  # {'key': 'value'}
+# d['mynewkey'] = 'mynewvalue'
+# print(d)  # {'key': 'value', 'mynewkey': 'mynewvalue'}
