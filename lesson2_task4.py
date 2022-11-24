@@ -1,4 +1,4 @@
-#
+# добавить информацию из семинара
 
 a = input("Enter first string: ")
 b = input("Enter second string: ")
