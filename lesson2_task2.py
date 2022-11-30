@@ -18,6 +18,8 @@
 # Sample Output 2:
 # 3
 
-a = input("Enter any text: ")
-print(a.split())
-print(len(a.split()))
+# a = input("Enter any text: ")
+# print(a.split())
+# print(len(a.split()))
+
+print(len(input("Enter any text: ").split()))
