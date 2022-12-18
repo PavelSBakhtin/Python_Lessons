@@ -15,3 +15,5 @@ a = int(input('введите а: '))
 b = int(input('введите b: '))
 c = int(input('введите c: '))
 print('Это треугольник' if Triangle(a, b, c) else "Это не треугольник")
+
+print((lambda a: a[0] + a[1] > a[2] )(sorted(Triangle)))
